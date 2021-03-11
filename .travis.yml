@@ -21,7 +21,7 @@ script: make && ctest -VV --output-on-failure
 after_success:
     - coveralls --gcov-options '\-lp'
 env:
-    - CMAKE_ARGS=""
+    - CMAKE_ARGS="-DUSE_MESA=OFF"
     - CMAKE_ARGS="-DUSE_MESA=ON"
 branches:
     only:
@@ -32,7 +32,7 @@ notifications:
         on_failure: always
     irc:
         channels:
-            - "chat.freenode.net#glsl-debugger"
+            - "chat.freenode.net#qt5-glsl-debugger"
         template:
             - "%{repository}/%{branch} (%{commit} - %{author}): %{message}"
 os:
