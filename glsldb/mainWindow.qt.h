@@ -63,10 +63,10 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include "glTraceListModel.qt.h"
 #include "glTraceSettingsDialog.qt.h"
 
-#include <QtGui/QScrollArea>
+#include <QtWidgets/QScrollArea>
 #include <QtCore/QStack>
 
-class QWorkspace;
+class QMdiArea;
 
 class MainWindow: public QMainWindow, public Ui::MainWindow {
 Q_OBJECT
@@ -180,7 +180,7 @@ private:
 	void waitForEndOfExecution();
 
 	/* Workspace */
-	QWorkspace *workspace;
+	QMdiArea *workspace;
 	int currentRunLevel;
 
 	/* GLTrace Model */

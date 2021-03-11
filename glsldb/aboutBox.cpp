@@ -31,7 +31,7 @@ ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 *******************************************************************************/
 
-#include <Qt/qfile.h>
+#include <QtCore/qfile.h>
 
 #include "aboutBox.qt.h"
 

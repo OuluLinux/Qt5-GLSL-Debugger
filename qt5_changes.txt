@@ -1,0 +1,67 @@
+
+- set ./CMakeCache.txt:USE_MESA:BOOL=ON, option(USE_MESA "Use mesa glsl compiler" ON)
+
+- run these
+
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QWidget/QtWidgets\/QWidget/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QDialog/QtWidgets\/QDialog/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/Qt\/qfile.h/QtCore\/qfile.h/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QAbstractItemView/QtWidgets\/QAbstractItemView/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QScrollBar/QtWidgets\/QScrollBar/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QMessageBox/QtWidgets\/QMessageBox/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QSortFilterProxyModel/QtCore\/QSortFilterProxyModel/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QItemEditorCreatorBase/QtWidgets\/QItemEditorCreatorBase/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QCheckBox/QtWidgets\/QCheckBox/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QLabel/QtWidgets\/QLabel/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QRubberBand/QtWidgets\/QRubberBand/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QWorkspace/QtWidgets\/QMdiArea/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QScrollArea/QtWidgets\/QScrollArea/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QTableView/QtWidgets\/QTableView/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QTreeView/QtWidgets\/QTreeView/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QCompleter/QtWidgets\/QCompleter/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QDirModel/QtWidgets\/QDirModel/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QItemDelegate/QtWidgets\/QItemDelegate/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QFrame/QtWidgets\/QFrame/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QDoubleSpinBox/QtWidgets\/QDoubleSpinBox/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QPushButton/QtWidgets\/QPushButton/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QListWidget/QtWidgets\/QListWidget/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QWorkspace/QMdiArea/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QComboBox/QtWidgets\/QComboBox/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QComboBox/QtWidgets\/QComboBox/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QLineEdit/QtWidgets\/QLineEdit/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QSpinBox/QtWidgets\/QSpinBox/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QHeaderView/QtWidgets\/QHeaderView/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QApplication/QtWidgets\/QApplication/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QItemEditorFactory/QtWidgets\/QItemEditorFactory/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QVBoxLayout/QtWidgets\/QVBoxLayout/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/toAscii/toLatin1/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QSplitter/QtWidgets\/QSplitter/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QGridLayout/QtWidgets\/QGridLayout/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QFileDialog/QtWidgets\/QFileDialog/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QTabWidget/QtWidgets\/QTabWidget/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QTabBar/QtWidgets\/QTabBar/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/setFilters/setNameFilters/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/fromAscii/fromLatin1/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/selectedFilter/selectedNameFilter/g'
+
+
+
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QTabWidget/QtWidgets\/QTabWidget/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QTabWidget/QtWidgets\/QTabWidget/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QTabWidget/QtWidgets\/QTabWidget/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QTabWidget/QtWidgets\/QTabWidget/g'
+find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QTabWidget/QtWidgets\/QTabWidget/g'
+
+
+
+- reset(); --> beginResetModel(); endResetModel();
+- activeWindow -> activeSubWindow
+    - https://www.qtcentre.org/threads/56034-how-to-get-the-type-of-the-QMdiSubWindow
+            #include <QtWidgets/qmdisubwindow.h>
+            QMdiSubWindow *sw = m_pWorkspace->activeSubWindow();
+            QObject* swo = qobject_cast<QObject*>(sw->widget()));
+            if (swo == parent()->parent()->parent()->parent()) {
+- Qt::red --> QVariant(QColor(Qt::red))
+- WatchView *wv = qobject_cast<WatchView*>(windowList[i]->widget());
+            
+QList<QMdiSubWindow *>
