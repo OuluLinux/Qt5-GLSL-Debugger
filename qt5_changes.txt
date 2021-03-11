@@ -1,8 +1,5 @@
-
 - set ./CMakeCache.txt:USE_MESA:BOOL=ON, option(USE_MESA "Use mesa glsl compiler" ON)
-
 - run these
-
 find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QWidget/QtWidgets\/QWidget/g'
 find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QDialog/QtWidgets\/QDialog/g'
 find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/Qt\/qfile.h/QtCore\/qfile.h/g'
@@ -44,16 +41,6 @@ find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/s
 find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/fromAscii/fromLatin1/g'
 find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/selectedFilter/selectedNameFilter/g'
 
-
-
-find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QTabWidget/QtWidgets\/QTabWidget/g'
-find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QTabWidget/QtWidgets\/QTabWidget/g'
-find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QTabWidget/QtWidgets\/QTabWidget/g'
-find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QTabWidget/QtWidgets\/QTabWidget/g'
-find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/QtGui\/QTabWidget/QtWidgets\/QTabWidget/g'
-
-
-
 - reset(); --> beginResetModel(); endResetModel();
 - activeWindow -> activeSubWindow
     - https://www.qtcentre.org/threads/56034-how-to-get-the-type-of-the-QMdiSubWindow
@@ -63,5 +50,4 @@ find . \( -type d -name .git -prune \) -o -type f -print0 | xargs -0 sed -i 's/Q
             if (swo == parent()->parent()->parent()->parent()) {
 - Qt::red --> QVariant(QColor(Qt::red))
 - WatchView *wv = qobject_cast<WatchView*>(windowList[i]->widget());
-            
-QList<QMdiSubWindow *>
+- etc... use your brain
