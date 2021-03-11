@@ -1,6 +1,6 @@
-GLSL-Debugger
+Qt5-GLSL-Debugger
 =============
-[![Build Status](https://travis-ci.org/GLSL-Debugger/GLSL-Debugger.svg?branch=master)](https://travis-ci.org/GLSL-Debugger/GLSL-Debugger)
+[![Build Status](https://travis-ci.org/sppp/Qt5-GLSL-Debugger.svg?branch=master)](https://travis-ci.org/sppp/Qt5-GLSL-Debugger)
 
 GLSL source level debugger.
 
